@@ -1,7 +1,9 @@
 import matplotlib.pyplot as plt
 
-# Vetor de estado escalar porque não foi considerado o bias do giroscópio para este caso (apenas ângulo)
+# Nesta parte, o vetor de estado é escalar porque não foi considerado o bias do giroscópio para este caso (apenas ângulo)
 # Assim as matrizes P, A, B, C, Q, R, P, P0 e mu0 serão escalares (versão escalar do slide)
+
+np.random.seed(40) # adicionado dar o mesmo resultado
 
 # Dados necessários para a simulação
 var_gir = 0.05   # Giroscópio (Baixa variância)
