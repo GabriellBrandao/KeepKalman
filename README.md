@@ -4,7 +4,7 @@ Neste repositório, há scripts desenvolvidos para avaliar o filtro de Kalman ap
 ##  Integrantes:
 * Gabriel Brandão Santos - 202500249
 
-## Instruções de Instalação e Execução (Parte A e B)
+## Instruções de Instalação e Execução (Parte A e B):
 ### 1. Clonar o Repositório
 ```bash
 git clone [https://github.com/GabriellBrandao/KeepKalman.git](https://github.com/GabriellBrandao/KeepKalman.git)
@@ -26,4 +26,12 @@ python src/simulacao.py
 python src/main_pratica.py
 ```
 
-## Guia de Execução/Montagem (Parte C)
+## Guia de Execução da Simulação da IMU (Parte C)
+Para a simulação da IMU, foi utlizado o Webots R2025a.
+- Extraía o arquivo zipado chamado IMUSimulada.rar
+- Para executar a simulação, inicie o simulador Webots no seu computador.
+- No menu superior do Webots, clique em File e depois em Open World.
+- Procure e abra a IMUSimulada que foi extraída.
+- Entre na pasta IMUSimulada, depois abra a subpasta chamada worlds.
+- Selecione o arquivo worlddekalman.wbt e clique em Abrir.
+- Clique no botão de Play no topo da tela para iniciar a simulação.
